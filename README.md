@@ -1,6 +1,10 @@
-**Cluster Status
+
+## pxctl cheatsheet
+
+**Cluster Status**
 
 | Command | Description |
 | --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| pxctl cluster -h  | List supported commands |
+| pxctl cluster list | List nodes in the cluster |
+| pxctl cluster alerts | Show cluster wide alerts |
