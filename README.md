@@ -33,3 +33,11 @@
 | pxctl volume update -h  | List of supported commands |
 | pxctl volume ha-update | Update the replication factor default is 1 and max you can set is 3 |
 
+**Service Management**
+
+| Command | Description |
+| --- | --- |
+| pxctl service -h  | List of supported commands |
+| pxctl service info | Prints OCI version |
+| pxctl service kvdb members | List kvdb cluster members |
+
