@@ -16,7 +16,7 @@
 | --- | --- |
 | pxctl status  | Gives a complete output/status of cluster/nodes/storagedevice/storagepool |
 
-**Volume Management**
+**Volume Management - Create**
 
 | Command | Description |
 | --- | --- |
@@ -25,3 +25,11 @@
 | pxctl volume create <volname> -s <size default 1GB> | Example of how to create a volume |
 | pxctl volume list | List number of volumes |
 | pxctl volume inspect <VOL ID> | Detailed information about the volume created and attached to node and disk size used |
+
+**Volume Management - Update**
+
+| Command | Description |
+| --- | --- |
+| pxctl volume update -h  | List of supported commands |
+| pxctl volume ha-update | Update the replication factor default is 1 and max you can set is 3 |
+
