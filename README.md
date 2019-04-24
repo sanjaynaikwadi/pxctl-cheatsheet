@@ -16,7 +16,7 @@
 | --- | --- |
 | pxctl status  | Gives a complete output/status of cluster/nodes/storagedevice/storagepool |
 
-** Volume Management **
+**Volume Management**
 
 | Command | Description |
 | --- | --- |
