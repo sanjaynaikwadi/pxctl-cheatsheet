@@ -24,7 +24,7 @@
 | pxctl volume create <volname> -s <size default 1GB> | Example of how to create a volume |
 | pxctl volume list | List number of volumes |
 | pxctl volume inspect <VOL ID> | Detailed information about the volume created and attached to node and disk size used |
-| pxctl volume clone --name <CloneName> <VolName> | Clone the volume | 
+| pxctl volume clone --name `<CloneName> <VolName>` | Clone the volume | 
 
 **Volume Management - Update**
 
