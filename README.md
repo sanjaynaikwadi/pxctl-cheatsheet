@@ -21,9 +21,9 @@
 | --- | --- |
 | pxctl volume -h  | List of supported commands |
 | pxctl volume create -h | List of additional commands which can be used while creating volume |
-| pxctl volume create <volname> -s <size default 1GB> | Example of how to create a volume |
+| pxctl volume create `<volname>` -s `<size default 1GB>` | Example of how to create a volume |
 | pxctl volume list | List number of volumes |
-| pxctl volume inspect <VOL ID> | Detailed information about the volume created and attached to node and disk size used |
+| pxctl volume inspect `<VOL ID>` | Detailed information about the volume created and attached to node and disk size used |
 | pxctl volume clone --name `<CloneName> <VolName>` | Clone the volume | 
 
 **Volume Management - Update**
@@ -39,7 +39,7 @@
 | Command | Description |
 | --- | --- |
 | pxctl volume snapshot -h  | List of supported commands |
-| pxctl volume snapshot create --name <SnapName> <VolName> | Snapshot the volume, Snapshots are Read-Only | 
+| pxctl volume snapshot create --name `<SnapName> <VolName>` | Snapshot the volume, Snapshots are Read-Only | 
 
 **Service Management**
 
