@@ -53,6 +53,7 @@
 **Service Management - Node Maintenance**
 
 - To perform any of the below operations node needs to be in maintenance mode
+
 | Command | Description |
 | --- | --- |
 | pxctl service maintenance -h | List supported commands |
