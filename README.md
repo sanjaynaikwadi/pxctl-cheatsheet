@@ -49,3 +49,12 @@
 | pxctl service info | Prints OCI version |
 | pxctl service kvdb members | List kvdb cluster members |
 
+
+**Service Management - Node Maintenance**
+
+| Command | Description |
+| --- | --- |
+| pxctl service maintenance -h | List supported commands |
+| pxctl service drive -h | List supporte command |
+
+- To perform any of the above operations node needs to be in maintenance mode
